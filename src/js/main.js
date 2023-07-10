@@ -372,7 +372,7 @@ const formSubmitHandler = (e) => {
   }
 
   if (!regex.test(formData.fullName)) {
-    alert("Uncorrect full name! You can't enter number or symbols");
+    alert("Uncorrect full name! You can't enter number or symbols, and letters must be english");
     return;
   }
 
